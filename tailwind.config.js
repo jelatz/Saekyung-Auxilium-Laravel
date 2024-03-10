@@ -8,11 +8,13 @@ export default {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'login-page': "url('/public/images/Login.png')",
+        'index': "url('/public/images/login-bg.png')",
       }),
       colors: {
-        'primary': '#f1b573',
-        'secondary': '#f9e1c7'
+        'primary': '#FFE5B4',
+        'secondary': '#FFFFE0',
+        'btn' : '#1F2022',
+        'accent1' : '#E7E7E7' 
         }
       }
     },
