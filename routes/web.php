@@ -14,9 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.login');
+    return view('auth.login');
 })->name('login');
 
-Route::get('/admin-login', function () {
-    return view('pages.admin-login');
-})->name('admin-login');
+
+Route::get('/forgot-password', function () {
+    return view('auth.forgot-password');
+})->name('forgot-password');

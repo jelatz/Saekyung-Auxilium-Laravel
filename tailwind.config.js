@@ -15,9 +15,15 @@ export default {
         'secondary': '#FFFFE0',
         'btn' : '#1F2022',
         'accent1' : '#E7E7E7' 
-        }
+      },
+      height: {
+        '100': '30rem'
+      },
+      width: {
+        '100': '30rem'
       }
-    },
+    }
+  },
   plugins: []
 }
 
