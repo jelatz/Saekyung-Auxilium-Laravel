@@ -9,6 +9,7 @@ export default {
     extend: {
       backgroundImage: theme => ({
         'index': "url('/public/images/login-bg.png')",
+        'resident': "url('/public/images/resident.png')",
       }),
       colors: {
         'primary': '#FFE5B4',

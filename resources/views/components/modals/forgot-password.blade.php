@@ -3,7 +3,7 @@
     <a href="#" @click="isOpen = true" class="text-black hover:text-gray-600 text-lg">Forgot your password?</a>
 
     <!-- Modal -->
-    <div x-show="isOpen"  class="fixed inset-0 overflow-y-auto flex items-center justify-center z-50">
+    <div x-show="isOpen" class="fixed inset-0 overflow-y-auto flex items-center justify-center z-50">
         <div class="relative mx-auto max-w-lg w-100 bg-primary rounded-lg shadow-lg" @click.away="isOpen = false">
             <!-- Modal Header -->
             <div class="flex justify-between items-center px-6 py-4 bg-primary rounded-lg border-b-2">

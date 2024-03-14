@@ -23,7 +23,7 @@ Route::get('/forgot-password', function () {
 })->name('forgot-password');
 
 Route::get('/user-dashboard', function(){
-    return view('pages.users.index');
+    return view('pages.users.dashboard');
 })->name('dashboard');
 
 Route::get('/user-services', function(){

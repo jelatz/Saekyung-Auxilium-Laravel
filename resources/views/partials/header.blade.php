@@ -1,4 +1,4 @@
-<div class="w-72 md:w-80 h-screen bg-primary fixed left-0 top-10 md:top-0 hidden md:block sidebar-menu">
+<div class="w-64 md:w-68 h-screen bg-primary fixed left-0 top-10 md:top-0 hidden md:block sidebar-menu">
     <div class="flex flex-col justify-center items-center py-2 gap-10">
         <figure>
             <a href="{{route('dashboard')}}">
