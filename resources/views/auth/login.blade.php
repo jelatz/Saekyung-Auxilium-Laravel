@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Saekyung Auxilium Log In')
 @section('content')
 
 <div class="bg-index bg-no-repeat bg-center bg-cover min-h-screen grid place-items-center">
@@ -20,11 +20,17 @@
                 <label for="remember" class="text-lg">Remember me</label>
             </div>
             <div class="mb-3">
-                {{-- <a href="#" @click="isOpen = ! open" class="text-black hover:text-gray-600 text-lg">Forgot your password?</a> --}}
-                <x-modal></x-modal>
+                <x-modals.forgot-password></x-modals.forgot-password>
             </div>
             <div class="mt-10 text-center">
-                <input type="submit" value="Submit" class="bg-btn text-white hover:bg-secondary hover:text-black px-5 text-md font-semibold py-2 rounded-xl cursor-pointer ">
+                <input type="submit" value="Login" class="bg-btn text-white hover:bg-secondary hover:text-black px-5 text-md font-semibold py-2 rounded-xl cursor-pointer ">
+            </div>
+        </form>
+    </div>
+</div>
+            </div>
+            <div class="mt-10 text-center">
+                <input type="submit" value="Login" class="bg-btn text-white hover:bg-secondary hover:text-black px-5 text-md font-semibold py-2 rounded-xl cursor-pointer ">
             </div>
         </form>
     </div>

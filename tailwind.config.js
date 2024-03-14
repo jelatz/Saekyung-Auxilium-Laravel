@@ -22,6 +22,9 @@ export default {
       width: {
         '100': '30rem'
       }
+    },
+    container: {
+      center: true,
     }
   },
   plugins: []

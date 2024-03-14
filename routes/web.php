@@ -21,3 +21,15 @@ Route::get('/', function () {
 Route::get('/forgot-password', function () {
     return view('auth.forgot-password');
 })->name('forgot-password');
+
+Route::get('/user-dashboard', function(){
+    return view('pages.users.index');
+})->name('dashboard');
+
+Route::get('/user-services', function(){
+    return view('pages.users.services');
+})->name('services');
+
+Route::get('/user-history', function(){
+    return view('pages.users.history');
+})->name('history');

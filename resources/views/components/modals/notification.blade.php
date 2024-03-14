@@ -1,12 +1,13 @@
-<div x-data="{ isOpen: true }">
+<div x-data="{ isOpen: false }">
     <!-- Trigger Button -->
-    <a href="#" @click="isOpen = true" class="text-black hover:text-gray-600 text-lg">Forgot your password?</a>
+    <a href="#" @click="isOpen = true"><ion-icon name="notifications-outline" class="text-2xl pt-2"></ion-icon>
+    </a>
 
     <!-- Modal -->
-    <div x-show="isOpen"  class="fixed inset-0 overflow-y-auto flex items-center justify-center z-50">
-        <div class="relative mx-auto max-w-lg w-100 bg-primary rounded-lg shadow-lg" @click.away="isOpen = false">
+    <div x-show="isOpen"  class="fixed top-10 right-5 overflow-y-auto flex items-center justify-center z-50">
+        <div class="relative mx-auto max-w-lg w-100 bg-primary shadow-lg" @click.away="isOpen = false">
             <!-- Modal Header -->
-            <div class="flex justify-between items-center px-6 py-4 bg-primary rounded-lg">
+            <div class="flex justify-between items-center px-6 py-4 bg-primary rounded-lg border-b-2">
                 <h2 class="text-lg font-semibold">Reset your password</h2>
                 <button @click="isOpen = false" class="text-gray-600 hover:text-gray-800">&times;</button>
             </div>
